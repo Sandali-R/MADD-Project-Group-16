@@ -7,24 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.coordinatorlayout.widget.CoordinatorLayout
-
-        android:id="@+id/coordinatorLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </com.google.android.material.appbar.AppBarLayout>
-
-        <!-- Note: A RecyclerView can also be used -->
-
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
 
     <!--image-->
     <androidx.constraintlayout.utils.widget.ImageFilterView
@@ -73,12 +55,13 @@
         app:layout_constraintVertical_bias="0.0"
         app:menu="@menu/home_menu"
         app:navigationIcon="@drawable/ic_menu"
-        app:title="@string/page_title" />
+        app:title="@string/home_page_title" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgv_module"
         android:layout_width="167dp"
         android:layout_height="141dp"
+        android:onClick="open_module_page"
         app2:srcCompat="@drawable/imgbtn_module"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,21 +71,24 @@
         app:layout_constraintVertical_bias="0.476" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgv_event"
         android:layout_width="165dp"
         android:layout_height="197dp"
+        android:onClick="open_event_page"
         app2:srcCompat="@drawable/imgbtn_event"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/coordinatorLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.464" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imgv_timetable"
         android:layout_width="161dp"
         android:layout_height="132dp"
+        android:onClick="open_timetable_page"
         app2:srcCompat="@drawable/imgbtn_timetable"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -112,9 +98,10 @@
         app:layout_constraintVertical_bias="0.806" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imgv_studygroup"
         android:layout_width="174dp"
         android:layout_height="122dp"
+        android:onClick="open_studyGroup_page"
         app2:srcCompat="@drawable/imgbtn_studygroup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -176,4 +163,3 @@
         app:layout_constraintVertical_bias="0.619" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
