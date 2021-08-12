@@ -58,7 +58,7 @@
         android:layout_gravity="start"
         app2:menu="@menu/home_bottomnaw"
         app:layout_constraintBottom_toBottomOf="parent" />
-
+    <!--top menu-->
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topAppBar"
         style="@style/Widget.MaterialComponents.Toolbar.Primary"
