@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <color name="textView_color">#000000</color>
+    <color name="planeText_color">#5A5858</color>
+    <color name="scrolbar_color">#1F1E1E</color>
+</resources>
