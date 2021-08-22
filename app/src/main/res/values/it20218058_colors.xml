@@ -3,4 +3,10 @@
     <color name="textView_color">#000000</color>
     <color name="planeText_color">#5A5858</color>
     <color name="scrolbar_color">#1F1E1E</color>
+    <color name="clr_red">#850A01</color>
+    <color name="div_color">#7D0A91</color>
+    <color name="clr_darkBlue">#17028B</color>
+    <color name="back1">#D3BDE0</color>
+    <color name="back2">#D9C6DD</color>
+
 </resources>

@@ -37,10 +37,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/et_goalTime" />
+            app:layout_constraintTop_toBottomOf="@+id/et_passReg2" />
 
         <TextView
-            android:id="@+id/tv_goalTime"
+            android:id="@+id/tv_pssReg1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -52,10 +52,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pt_goal" />
+            app:layout_constraintTop_toBottomOf="@+id/pt_usernameReg2" />
 
         <EditText
-            android:id="@+id/pt_goal"
+            android:id="@+id/pt_usernameReg2"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_marginStart="16dp"
@@ -67,10 +67,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_goal" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_usernameReg1" />
 
         <TextView
-            android:id="@+id/tv_goal"
+            android:id="@+id/tv_usernameReg1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -82,10 +82,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/et_numMembers" />
+            app:layout_constraintTop_toBottomOf="@+id/et_emailReg2" />
 
         <TextView
-            android:id="@+id/tv_numMembers"
+            android:id="@+id/tv_emailReg1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -97,10 +97,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/pt_groupName" />
+            app:layout_constraintTop_toBottomOf="@+id/pt_nameReg1" />
 
         <EditText
-            android:id="@+id/pt_groupName"
+            android:id="@+id/pt_nameReg1"
             android:layout_width="0dp"
             android:layout_height="45dp"
             android:layout_marginStart="16dp"
@@ -112,10 +112,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.4"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_groupName" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_nameReg" />
 
         <TextView
-            android:id="@+id/tv_groupName"
+            android:id="@+id/tv_nameReg"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -130,7 +130,7 @@
             app:layout_constraintTop_toBottomOf="@+id/topAppBar" />
 
         <EditText
-            android:id="@+id/et_numMembers"
+            android:id="@+id/et_emailReg2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -141,10 +141,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_numMembers" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_emailReg1" />
 
         <EditText
-            android:id="@+id/et_goalTime"
+            android:id="@+id/et_passReg2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -155,7 +155,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_goalTime" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_pssReg1" />
 
         <EditText
             android:id="@+id/et_intrestSpinner"
@@ -165,7 +165,7 @@
             android:layout_marginEnd="16dp"
             android:ems="10"
             android:inputType="time"
-            app:layout_constraintBottom_toTopOf="@+id/btn_createGroup"
+            app:layout_constraintBottom_toTopOf="@+id/btn_register"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -179,7 +179,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="64dp"
-            app:layout_constraintBottom_toTopOf="@+id/btn_createGroup"
+            app:layout_constraintBottom_toTopOf="@+id/btn_register"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -187,7 +187,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <Button
-            android:id="@+id/btn_createGroup"
+            android:id="@+id/btn_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -197,7 +197,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/et_goalTime"
+            app:layout_constraintTop_toBottomOf="@+id/et_passReg2"
             app:layout_constraintVertical_bias="0.964" />
 
 

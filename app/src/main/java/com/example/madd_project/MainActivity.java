@@ -54,17 +54,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void open_module_page(View view) {
-        Intent intent = new Intent(this,IT20218058_MyGroups.class);
+        Intent intent = new Intent(this,IT20218058_LogAndRegister.class);
         startActivity(intent);
     }
 
     public void open_event_page(View view) {
-        Intent intent = new Intent(this,IT20218058_MyGroups.class);
+        Intent intent = new Intent(this,IT20218058_Profile.class);
         startActivity(intent);
     }
 
     public void open_timetable_page(View view) {
-        Intent intent = new Intent(this,IT20218058_MyGroups.class);
+        Intent intent = new Intent(this,IT20218058_Register.class);
         startActivity(intent);
     }
 

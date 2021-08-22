@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/btn_cancelSearch"
+        android:text="@string/btn_find"
         app:layout_constraintBottom_toBottomOf="@+id/div_search"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -219,8 +219,8 @@
 
     <ImageView
         android:id="@+id/imgv_addbtn"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="69dp"
+        android:layout_height="61dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:onClick="open_createGroup_page"
