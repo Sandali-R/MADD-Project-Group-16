@@ -9,11 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADD_Project">
-
-      
-      
-      
-      
     
         <activity
             android:name=".IT20225674_CalenderView"
