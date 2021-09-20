@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT20218058_Group">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+            android:paddingTop="32dp"
+            android:paddingBottom="4dp"
+            android:src="@drawable/img_it20218058_codeblue" />
+
+        <TextView
+            android:id="@+id/tv_editPic"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/tv_editPic"
+            android:textColor="@color/scrolbar_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--group name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_namePro1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/tv_groupName"
+                android:textColor="@color/scrolbar_color"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_namePro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/sv_group1"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/planeText_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <!--group leader-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_emailPro1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/tv_gLeader"
+                android:textColor="@color/scrolbar_color"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_emailPro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/tv_gLeaderDis"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/planeText_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <!--num of members-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_uniPro1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/tv_numMembers"
+                android:textColor="@color/scrolbar_color"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_uniPro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/tv_gNumMembersDis1"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/planeText_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <!--our interest-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="65dp">
+
+            <TextView
+                android:id="@+id/tv_usernamePro1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/tv_interests"
+                android:textColor="@color/scrolbar_color"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_passPro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingBottom="20dp"
+                android:text="@string/tv_gInterestDis1"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/planeText_color"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <!--edit & delete buttons-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true"
+            android:orientation="horizontal"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp">
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="false"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="@string/btn_update"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="6dp"
+                android:text="@string/btn_delete"
+                android:textSize="15sp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

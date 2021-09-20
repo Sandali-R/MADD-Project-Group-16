@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT20218058_Ranking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="0dp"
+                android:background="?android:attr/listDivider" />
+
+            <SearchView
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/btn_find" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_rank"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:src="@drawable/img_it20218058_rank1" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--friend 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_friend1"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend1"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tv_friend1P"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend1P"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                    <ImageView
+                        android:id="@+id/img_1st"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_it20218058_1st" />
+
+                </LinearLayout>
+
+                <!--friend 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_friend2"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend2"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tv_friend2P"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend2P"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_it20218058_2nd" />
+
+                </LinearLayout>
+
+                <!--friend 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_friend3"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend3"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tv_friend3P"
+                        android:layout_width="121dp"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend3P"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_it20218058_3rd" />
+
+                </LinearLayout>
+
+                <!--friend 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_friend4"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend4"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tv_friend4P"
+                        android:layout_width="119dp"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend4P"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+                <!--friend 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_friend5"
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend5"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tv_friend5P"
+                        android:layout_width="119dp"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="@string/tv_friend5P"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/scrolbar_color"
+                        android:textSize="22sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
