@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <color name="module_purple_500">#A890E1</color>
+    <color name="module_red">#850A01</color>
+    <color name="module_darkBlue">#B47EDE</color>
+    <color name="module_purple_700">#7D0A91</color>
+    <color name="module_blue">#87CEEB</color>
+    <color name="module_pink">#FF69B4</color>
+</resources>

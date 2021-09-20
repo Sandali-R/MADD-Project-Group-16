@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-
-
+    <string name="module_page_title1">Add Module</string>
+    <string name="module_page_title2">Update Module</string>
+    <string name="module_page_title3">My Modules</string>
+    <string name="module_page_title4">My Grades</string>
+    <string name="addmodule">Add</string>
+    <string name="tv_modulename">Module Name</string>
+    <string name="tv_modulecolour">Color</string>
+    <string name="tv_lecturersname">Lecturer\'s Name</string>
+    <string name="pt_entermodulename" />
+    <string name="enterlecturersname" />
+    <string name="lecturersname">Lecturer\'s Name</string>
+    <string name="upmodulename">Module Name</string>
+    <string name="updatemodulename">MADD</string>
+    <string name="upmodulecolor">Color</string>
+    <string name="uplecturersname">Lecturer\'s Name</string>
+    <string name="updatelecturersname">Ms. Gihani Gunarathne</string>
+    <string name="moduleupdatebutton">UPDATE</string>
+    <string name="deletemodule">DELETE</string>
+    <string name="upnocredits">No of Credits</string>
+    <string name="updatenocredits">4</string>
+    <string name="addnoofcredits">No of Credits</string>
+    <string name="enternocredits" />
+    <string name="MADD">MADD</string>
+    <string name="moduleMADD">MADD</string>
+    <string name="moduleDSA">DSA</string>
+    <string name="modulePS">PS</string>
 </resources>
