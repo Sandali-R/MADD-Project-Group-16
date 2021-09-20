@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MADD_Project">
         <activity
+            android:name=".IT20225674_CalenderView"
+            android:exported="true" />
+        <activity
+            android:name=".IT20225674_Calendar"
+            android:exported="true" />
+        <activity
+            android:name=".IT20225674_DeleteTimeTable"
+            android:exported="true" />
+        <activity
+            android:name=".IT20225674_UpdateTimeTable"
+            android:exported="true" />
+        <activity
             android:name=".IT20225674_AddTimeTable"
             android:exported="true" />
         <activity android:name=".IT20218058_CreateGroup" />
