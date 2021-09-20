@@ -64,8 +64,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void open_timetable_page(View view) {
-        Intent intent = new Intent(this,IT20218058_CreateGroup.class);
+        Intent intent = new Intent(this,IT20225674_UpdateTimeTable.class);
         startActivity(intent);
+
     }
 
     public void open_studyGroup_page(View view) {

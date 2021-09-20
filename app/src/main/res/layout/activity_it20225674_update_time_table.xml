@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IT20225674_UpdateTimeTable">
+
+    <!--top menu-->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/home_menu"
+        app:navigationIcon="@drawable/ic_menu"
+        app:title="Edit Time Table" /> <!--my strings wl dena ek meke daanna -->
+
+
+    <Spinner
+        android:id="@+id/days"
+        android:layout_width="263dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <TextView
+        android:id="@+id/Ed_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/end_time"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subject"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/St_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/start_time"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subject"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Spinner
+        android:id="@+id/subject"
+        android:layout_width="263dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/days"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <Button
+        android:id="@+id/up_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+        android:layout_weight="1"
+        android:text="@string/update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/dt_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginBottom="132dp"
+        android:layout_weight="1"
+        android:text="@string/delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toEndOf="@+id/up_button" />
+
+    <Switch
+        android:id="@+id/switchButton"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="256dp"
+        android:text="Add Reminder"
+        android:textOff="Off"
+        android:textOn="On"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:thumbTint="#FFBB86FC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="256dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/switchButton"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_baseline_notifications_it20225674" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="339dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/days"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar"
+        app:srcCompat="@drawable/imgbtn_timetable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
