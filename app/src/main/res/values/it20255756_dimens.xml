@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="module_name">10dp</dimen>
+    <dimen name="module_margin_right">18dp</dimen>
+    <dimen name="module_margin_left">20dp</dimen>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="layout_marginBottom">36dp</dimen>
+    <dimen name="module_margin_left1">8dp</dimen>
+    <dimen name="layout_height">12dp</dimen>
+</resources>
