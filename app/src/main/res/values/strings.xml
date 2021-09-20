@@ -9,4 +9,7 @@
     <string name="action_calender">Calender</string>
     <string name="action_profile">Profile</string>
     <string name="action_settings">settings</string>
+    <string name="module_add">Addm</string>
+    <string name="entermodulename" />
+</resources>
    
