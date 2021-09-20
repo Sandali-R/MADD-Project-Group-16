@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void open_module_page(View view) {
-        Intent intent = new Intent(this,IT20218058_CreateGroup.class);
+        Intent intent = new Intent(this,IT20255756_GradingModule.class);
         startActivity(intent);
     }
 
