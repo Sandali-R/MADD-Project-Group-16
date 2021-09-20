@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="event_page_title1">Add Event</string>
+    <string name="edit_event_page_title2">Edit Event</string>
+    <string name="category_page_title3">Add Category</string>
+    <string name="read_my_event_page_title4">My Events</string>
+    <string name="delete_event_page_title5">Delete Events</string>
+    <string name="add_category_page_title6">Edit Category</string>
+</resources>

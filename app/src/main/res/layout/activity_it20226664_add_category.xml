@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT20226664_AddCategory">
+
+    <!--top menu-->
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="99dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="210dp"
+        android:elegantTextHeight="true"
+        android:text="Projects"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <ImageView
+        android:id="@+id/imgv_editevent6"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="312dp"
+
+        android:layout_marginTop="504dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbtn_edit_event" />
+
+    <ImageView
+        android:id="@+id/imgv_owl_edit"
+        android:layout_width="117dp"
+        android:layout_height="114dp"
+
+        android:layout_marginStart="36dp"
+
+        android:layout_marginTop="560dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_owl_edit" />
+
+    <ImageView
+        android:id="@+id/imgv_delete_event6"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="360dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/imgbtn_delete_event" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="99dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="280dp"
+        android:elegantTextHeight="true"
+        android:text="Home Work"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imgv_exam"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.161"
+        app:srcCompat="@drawable/imgbtn_exam" />
+
+    <ImageView
+        android:id="@+id/imgv_quiz"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274"
+        app:srcCompat="@drawable/imgbtn_quiz" />
+
+    <ImageView
+        android:id="@+id/imgv_presetation"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383"
+        app:srcCompat="@drawable/imgbtn_presetation" />
+
+    <ImageView
+        android:id="@+id/imgv_assignment"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbtn_assignment" />
+
+    <ImageView
+        android:id="@+id/imgv_homework"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623"
+        app:srcCompat="@drawable/imgbtn_homework" />
+
+    <ImageView
+        android:id="@+id/imgv_projects"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.717"
+        app:srcCompat="@drawable/imgbtn_projects" />
+
+    <ImageView
+        android:id="@+id/imgv_add_items"
+        android:layout_width="105dp"
+        android:layout_height="118dp"
+
+        android:layout_marginStart="276dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919"
+        app:srcCompat="@drawable/imgbtn_add_items" />
+
+    <ImageView
+        android:id="@+id/imgv_delete_event5"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="360dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623"
+        app:srcCompat="@drawable/imgbtn_delete_event" />
+
+    <ImageView
+        android:id="@+id/imgv_delete_event4"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="360dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491"
+        app:srcCompat="@drawable/imgbtn_delete_event" />
+
+    <ImageView
+        android:id="@+id/imgv_delete_event3"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="360dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.379"
+        app:srcCompat="@drawable/imgbtn_delete_event" />
+
+    <ImageView
+        android:id="@+id/imgv_delete_event2"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="360dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281"
+        app:srcCompat="@drawable/imgbtn_delete_event" />
+
+    <ImageView
+        android:id="@+id/imgv_editevent5"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="312dp"
+
+        android:layout_marginTop="444dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbtn_edit_event" />
+
+    <ImageView
+        android:id="@+id/imgv_editevent4"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="312dp"
+
+        android:layout_marginTop="352dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbtn_edit_event" />
+
+    <ImageView
+        android:id="@+id/imgv_editevent3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="312dp"
+
+        android:layout_marginTop="272dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbtn_edit_event" />
+
+    <ImageView
+        android:id="@+id/imgv_editevent2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="312dp"
+
+        android:layout_marginTop="204dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbtn_edit_event" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="99dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginEnd="164dp"
+        android:elegantTextHeight="true"
+        android:text="Assignment"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="99dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="48dp"
+        android:elegantTextHeight="true"
+        android:text="Presentation"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imgv_presetation" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="99dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="164dp"
+        android:elegantTextHeight="true"
+        android:text="Quiz"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="99dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="156dp"
+        android:elegantTextHeight="true"
+        android:text="Exam"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar" />
+
+    <ImageView
+        android:id="@+id/imgv_delete_event"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="360dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16"
+        app:srcCompat="@drawable/imgbtn_delete_event" />
+
+    <ImageView
+        android:id="@+id/imgv_editevent"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="312dp"
+
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgv_editevent2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbtn_edit_event" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/home_menu"
+        app:navigationIcon="@drawable/ic_menu"
+        app:title="@string/category_page_title3" />
+
+
+
+    <!--button-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
