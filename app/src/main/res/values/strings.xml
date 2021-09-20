@@ -11,4 +11,5 @@
     <string name="action_settings">settings</string>
     <string name="module_add">Addm</string>
     <string name="entermodulename">EnterModuleName</string>
+    <string name="entermoduleID">EnterModuleID</string>
 </resources>
