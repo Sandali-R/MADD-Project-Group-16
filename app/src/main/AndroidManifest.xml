@@ -36,7 +36,23 @@
         <activity android:name=".IT20255756_UpdateModule" />
         <activity android:name=".IT20255756_AddModule" />
 
-        <activity android:name=".IT20218058_CreateGroup" />
+        
+        <activity android:name=".IT20218058_LogAndRegister">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IT20218058_Profile" />
+        <activity android:name=".IT20218058_Register" />
+        <activity android:name=".IT20218058_MyHistory" />
+        <activity android:name=".IT20218058_GroupDetails" />
+        <activity android:name=".IT20218058_MyGroups" />
+        <activity
+            android:name=".IT20218058_CreateGroup"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity"></activity>
         
     </application>
 
