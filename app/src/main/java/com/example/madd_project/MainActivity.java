@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void open_module_page(View view) {
-    Intent intent = new Intent(this,IT20255756_GradingModule.class);
-    startActivity(intent);
+        Intent intent = new Intent(this,IT20255756_GradingModule.class);
+        startActivity(intent);
     }
 
     public void open_event_page(View view) {
@@ -64,13 +64,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void open_timetable_page(View view) {
-    Intent intent = new Intent(this,IT20225674_UpdateTimeTable.class);
-    startActivity(intent);
+        Intent intent = new Intent(this,IT20225674_UpdateTimeTable.class);
+        startActivity(intent);
 
     }
 
     public void open_studyGroup_page(View view) {
-        Intent intent = new Intent(this,IT20218058_MyGroups.class);
+        Intent intent = new Intent(this,IT20218058_CreateGroup.class);
         startActivity(intent);
     }
 }
