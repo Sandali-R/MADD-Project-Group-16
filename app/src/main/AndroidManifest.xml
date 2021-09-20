@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MADD_Project">
 
-
-
-
-
-
+      
+      
+      
+      
+    
         <activity
             android:name=".IT20225674_CalenderView"
             android:exported="true" />
@@ -36,7 +36,7 @@
         <activity android:name=".IT20255756_UpdateModule" />
         <activity android:name=".IT20255756_AddModule" />
 
-
+        
         <activity android:name=".IT20218058_LogAndRegister">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,7 +53,7 @@
             android:name=".IT20218058_CreateGroup"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity"></activity>
-
+        
     </application>
 
 </manifest>
