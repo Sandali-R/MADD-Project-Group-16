@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IT20218058_CreateGroup">
+    tools:context=".it20255756_interfaces.IT20218058_CreateGroup">
 
     <!--top menu-->
     <com.google.android.material.appbar.MaterialToolbar

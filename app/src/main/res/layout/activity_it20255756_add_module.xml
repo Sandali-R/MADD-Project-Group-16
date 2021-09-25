@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IT20255756_AddModule"
+    tools:context=".it20255756_interfaces.IT20255756_AddModule"
     tools:ignore="ExtraText">
 
     <!--top menu-->
@@ -30,124 +30,29 @@
         android:layout_width="379dp"
         android:layout_height="37dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="16dp"
         android:text="@string/tv_modulename"
         android:textColor="#000000"
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topAppBar" />
 
-    <TextView
-        android:id="@+id/tv_uplecturersname"
-        android:layout_width="379dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/lecturersname"
-        android:textColor="#000000"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_upmodulecolour" />
-
-    <TextView
-        android:id="@+id/tv_up"
-        android:layout_width="379dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
-        android:paddingLeft="2dp"
-        android:text="@string/addnoofcredits"
-        android:textColor="#000000"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pt_updatelecturersname" />
-
-    <TextView
-        android:id="@+id/tv_upmodulecolour"
-        android:layout_width="379dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/tv_modulecolour"
-        android:textColor="#000000"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pt_updatemodulename"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/btn_deletemodule"
-        android:layout_width="115dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        android:text="@string/addmodule"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pt_updatelecturersname2"
-        app:layout_constraintVertical_bias="0.73"
-        tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/pt_updatelecturersname"
-        android:layout_width="378dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/enterlecturersname"
-        android:textColorHighlight="#000000"
-        android:textColorLink="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_uplecturersname"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/pt_updatelecturersname2"
+        android:id="@+id/pt_entermodulename"
         android:layout_width="378dp"
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/enternocredits"
-        android:textColorHighlight="#000000"
-        android:textColorLink="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_up"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/pt_updatemodulename"
-        android:layout_width="378dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/entermodulename"
+        android:text="@string/pt_entermodulename"
+        android:hint="Enter module name"
         android:textColorHighlight="#000000"
         android:textColorLink="#000000"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,17 +61,110 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_modulename"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="363dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="16dp"
+    <TextView
+        android:id="@+id/tv_modulecolour"
+        android:layout_width="379dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tv_modulecolour"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_upmodulecolour"
-        app:srcCompat="@drawable/it20255756_colourpng" />
+        app:layout_constraintTop_toBottomOf="@+id/pt_entermodulename"
+        tools:ignore="MissingConstraints" />
+
+    <com.thebluealliance.spectrum.SpectrumPalette
+        android:id="@+id/palette"
+        android:layout_width="373dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/tv_lecturersname"
+        android:layout_below="@+id/tv_modulecolour"
+        app:layout_constraintBottom_toTopOf="@+id/tv_lecturersname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_modulecolour"
+        app:layout_constraintVertical_bias="0.395"
+        app:spectrum_colors="@array/demo_colors" />
+
+    <TextView
+        android:id="@+id/tv_lecturersname"
+        android:layout_width="379dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/tv_lecturersname"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_modulecolour"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/pt_enternoofcredits"
+        android:layout_width="378dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/pt_enternocredits"
+        android:hint="Enter no of credits"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_noOfCredits"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_noOfCredits"
+        android:layout_width="379dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="44dp"
+        android:paddingLeft="2dp"
+        android:text="@string/addnoofcredits"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pt_enterlecturersname" />
+
+    <EditText
+        android:id="@+id/pt_enterlecturersname"
+        android:layout_width="378dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/pt_enterlecturersname"
+        android:hint="Enter Lecturer's Name"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lecturersname"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_addmodule"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:text="@string/addmodule"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pt_enternoofcredits"
+        app:layout_constraintVertical_bias="0.354"
+        tools:ignore="MissingConstraints" />
 
 
     <!--last line change into name given in my strings.xml-->

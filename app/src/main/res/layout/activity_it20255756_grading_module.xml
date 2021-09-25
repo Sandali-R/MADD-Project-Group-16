@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IT20255756_GradingModule">
+    tools:context=".it20255756_interfaces.IT20255756_GradingModule">
 
     <!--top menu-->
 

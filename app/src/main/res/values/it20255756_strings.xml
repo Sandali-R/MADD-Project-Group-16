@@ -7,11 +7,12 @@
     <string name="module_page_title4">My Grades</string>
     <string name="addmodule">Add</string>
     <string name="tv_modulename">Module Name</string>
-    <string name="tv_modulecolour">Color</string>
-    <string name="tv_lecturersname">Lecturer\'s Name</string>
     <string name="pt_entermodulename" />
-    <string name="enterlecturersname" />
-    <string name="lecturersname">Lecturer\'s Name</string>
+    <string name="entermoduleID" />
+    <string name="tv_modulecolour">Color</string>
+    <string name="tv_lecturersname">Lecturer/s Name</string>
+    <string name="pt_enterlecturersname" />
+    <string name="pt_enternocredits" />
     <string name="upmodulename">Module Name</string>
     <string name="updatemodulename">MADD</string>
     <string name="upmodulecolor">Color</string>
@@ -27,4 +28,7 @@
     <string name="moduleMADD">MADD</string>
     <string name="moduleDSA">DSA</string>
     <string name="modulePS">PS</string>
+    <string name="module_name">Module Name</string>
+    <string name="credits">Credits</string>
+    <string name="lecturer">Lecturer</string>
 </resources>

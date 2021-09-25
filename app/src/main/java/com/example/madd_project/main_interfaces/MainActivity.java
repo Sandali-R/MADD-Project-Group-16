@@ -1,12 +1,18 @@
-package com.example.madd_project;
+package com.example.madd_project.main_interfaces;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
+
+import com.example.madd_project.R;
+import com.example.madd_project.it20255756_interfaces.IT20225674_Display_Weekdays;
+import com.example.madd_project.it20255756_interfaces.IT20255756_AddModule;
+import com.example.madd_project.it20255756_interfaces.IT20255756_GradingModule;
+import com.example.madd_project.it20255756_interfaces.IT20255756_ModuleList;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,22 +60,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void open_module_page(View view) {
-        Intent intent = new Intent(this,IT20255756_GradingModule.class);
+        Intent intent = new Intent(this, IT20255756_AddModule.class);
         startActivity(intent);
     }
 
     public void open_event_page(View view) {
-        Intent intent = new Intent(this,IT20218058_CreateGroup.class);
+        Intent intent = new Intent(this, IT20255756_ModuleList.class);
         startActivity(intent);
     }
 
     public void open_timetable_page(View view) {
-        Intent intent = new Intent(this,IT20218058_CreateGroup.class);
+        Intent intent = new Intent(this, IT20225674_Display_Weekdays.class);
         startActivity(intent);
     }
 
     public void open_studyGroup_page(View view) {
-        Intent intent = new Intent(this,IT20218058_CreateGroup.class);
+        Intent intent = new Intent(this,IT20255756_GradingModule.class);
         startActivity(intent);
     }
 }

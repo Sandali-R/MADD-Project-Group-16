@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".IT20255756_ModuleList">
+    tools:context=".it20255756_interfaces.IT20255756_ModuleList">
 
     <!--top menu-->
 
@@ -21,134 +21,32 @@
         app:layout_constraintTop_toTopOf="parent"
         app:menu="@menu/home_menu"
         app:navigationIcon="@drawable/ic_menu"
-        app:title="@string/module_page_title3" />
+        app:title="@string/module_page_title3"/>
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-150dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView18"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/it20255756_pinkpng" />
-
-            <TextView
-                android:id="@+id/tv_MADD"
-                android:layout_width="316dp"
-                android:layout_height="match_parent"
-                android:paddingLeft="32dp"
-                android:paddingTop="25dp"
-                android:text="@string/moduleMADD"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/it20255756_bluepng" />
-
-            <TextView
-                android:id="@+id/tv_PS"
-                android:layout_width="316dp"
-                android:layout_height="match_parent"
-                android:paddingLeft="32dp"
-                android:paddingTop="25dp"
-                android:text="@string/modulePS"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/imageView20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/it20255756_selectedcolpng" />
-
-            <TextView
-                android:id="@+id/tv_DSA"
-                android:layout_width="316dp"
-                android:layout_height="63dp"
-                android:paddingLeft="32dp"
-                android:paddingTop="25dp"
-                android:text="@string/moduleDSA"
-                android:textAlignment="textStart"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
         android:layout_width="409dp"
-        android:layout_height="244dp"
-        android:layout_marginTop="50dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topAppBar">
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="253dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#FFFFFF"
-            app:srcCompat="@drawable/it20255756_moduleimg" />
-
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="66dp"
-        android:layout_height="73dp"
-        android:layout_marginTop="95dp"
-        android:layout_marginBottom="50dp"
+        android:layout_height="673dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/rv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar"
+        app:layout_constraintVertical_bias="0.948"
         app:srcCompat="@drawable/ic_addmodule_it20255756" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

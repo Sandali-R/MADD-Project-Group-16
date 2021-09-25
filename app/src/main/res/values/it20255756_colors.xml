@@ -2,8 +2,26 @@
 <resources>
     <color name="module_purple_500">#A890E1</color>
     <color name="module_red">#850A01</color>
-    <color name="module_darkBlue">#B47EDE</color>
+    <color name="module_darkBlue">#2444E4</color>
     <color name="module_purple_700">#7D0A91</color>
     <color name="module_blue">#87CEEB</color>
     <color name="module_pink">#FF69B4</color>
+
+    <!--Color palette-->
+    <color name="colour1"> #E45E9D </color>
+    <color name="colour2"> #12AD2B </color>
+    <color name="colour3"> #E9AB17 </color>
+    <color name="colour4"> #7D0552 </color>
+    <color name="colour5"> #6960EC </color>
+    <color name="colour6"> #B666D2 </color>
+
+    <array name="demo_colors">
+        <item>@color/colour1</item>
+        <item>@color/colour2</item>
+        <item>@color/colour3</item>
+        <item>@color/colour4</item>
+        <item>@color/colour5</item>
+        <item>@color/colour6</item>
+    </array>
+
 </resources>

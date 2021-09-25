@@ -1,17 +1,19 @@
-package com.example.madd_project;
+package com.example.madd_project.it20255756_interfaces;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class IT20255756_AddModule extends AppCompatActivity {
+import com.example.madd_project.R;
+
+public class IT20255756_GradingModule extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //hide top action bar
         getSupportActionBar().hide();
-        setContentView(R.layout.activity_it20255756_add_module);
-    }
+        setContentView(R.layout.activity_it20255756_grading_module);
 
+    }
 }

@@ -1,4 +1,4 @@
-package com.example.madd_project;
+package com.example.madd_project.it20255756_interfaces;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.madd_project.R;
 
 
 public class IT20255756_UpdateModule extends AppCompatActivity {
