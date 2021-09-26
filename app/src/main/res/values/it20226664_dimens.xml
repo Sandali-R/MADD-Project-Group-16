@@ -13,6 +13,7 @@
     <dimen name="event_margin_right2">16dp</dimen>
     <dimen name="event_margin_right3">16dp</dimen>
     <dimen name="event_margin_bottom5">50dp</dimen>
+    <dimen name="event_margin_bottom7">70dp</dimen>
 
 
 </resources>
