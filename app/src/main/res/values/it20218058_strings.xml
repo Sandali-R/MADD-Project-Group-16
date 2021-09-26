@@ -1,5 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--***************************-->
+    <!--Create A Group page strings-->
+    <string name="group_page_title1">Create A Group</string>
+    <string name="tv_groupName">Group Name</string>
+    <string name="pt_groupName">Code Champs</string>
+    <string name="tv_numMembers">Number Of Members</string>
+    <string name="et_numMembers">Max 25</string>
+    <string name="tv_goal">Set A Goal</string>
+    <string name="pt_goal">Complete MADD lab sheets</string>
+    <string name="time_goalTime">2 hours</string>
+    <string name="tv_goalTime">Set Time Period To Complete Goal</string>
+    <string name="btn_createGroup">Create Group</string>
+    <string name="tv_interests">Our Interest</string>
 
-    <string name="group_page_title1">Create Group</string>
+    <!--**********************-->
+    <!--My Groups page strings-->
+    <string name="group_page_title2">My Groups</string>
+    <string name="btn_find">Find</string>
+    <string name="sv_group1">CodeBlue</string>
+    <string name="sv_group2">IT-Craft</string>
+    <string name="sv_group3">ByteCode</string>
+    <string name="sv_group4">Projects</string>
+    <string name="sv_group5">Randoms</string>
+
+    <!--interest drop down-->
+    <string-array name="interest_array">
+        <item>MADD</item>
+        <item>DSA</item>
+        <item>ITP</item>
+        <item>PS</item>
+        <item>DSA</item>
+        <item>Prof. Skills</item>
+    </string-array>
+
+    <!--**************************-->
+    <!--Group details page strings-->
+    <string name="group_page_title3">CodeBlue</string>
+    <string name="tv_gLeader">Group Leader</string>
+    <string name="tv_ourGoal">Our Goal</string>
+    <string name="tv_GoalTime">Our Goal Time</string>
+    <string name="tv_rank">Rankings</string>
+    <string name="tv_addFriends">Add Friends</string>
+    <string name="btn_group">Group</string>
+    <string name="btn_goal">Goal</string>
+    <string name="btn_rank">Ranking</string>
+    <string name="btn_friends">Friends</string>
+    <string name="tv_editPic"><u>Edit Picture</u></string>
+    <string name="tv_gLeaderDis">Ronali</string>
+    <string name="tv_gNumMembersDis1">10</string>
+    <string name="tv_gInterestDis1">MADD</string>
+    <string name="btn_update">Edit Group</string>
+    <string name="btn_delete">Delete Group</string>
+    <string name="tv_notComplete">Not Completed Yet !</string>
+    <string name="tv_countDown">00 : 00</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_pause">Pause</string>
+    <string name="tv_goalDis">Our Goal</string>
+    <string name="tv_points">My Points</string>
+    <string name="tv_points1">10496</string>
+    <string name="btn_myHistory">My History</string>
+    <string name="tv_friend1">Ronali</string>
+    <string name="tv_friend1P">126 364</string>
+    <string name="tv_friend2">Binali</string>
+    <string name="tv_friend3">Oshel</string>
+    <string name="tv_friend2P">119 003</string>
+    <string name="tv_friend3P">75 281</string>
+    <string name="tv_friend5">Yasara</string>
+    <string name="tv_friend4">Selina</string>
+    <string name="tv_friend4P">50 238</string>
+    <string name="tv_friend5P">39 667</string>
+    <string name="tv_date1">01/08/2021</string>
+    <string name="tv_date2">02/08/2021</string>
+
+
+    <!--**************************-->
+    <!--Login Page-->
+    <string name="tv_login">Get Started With <i><b>QuickZ</b></i> !</string>
+    <string name="tv_username">Username</string>
+    <string name="tv_pass">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="tv_newuser"><u>New User Sign Up</u></string>
+    <string name="tv_userHint">Ronali</string>
+    <string name="tv_pass1">Rono@123</string>
+    <string name="tv_name">Enter Your Name</string>
+    <string name="tv_email">Enter Your Email</string>
+    <string name="tv_usernameReg">Enter A Username</string>
+    <string name="tv_passReg">Set A Password</string>
+    <string name="tv_uni">Enter Your Institution</string>
+    <string name="pt_nameReg1">Ronali Thesara</string>
+    <string name="et_emailReg2">ronali.s312@gmail.com</string>
+    <string name="et_uniReg2">SLIIT</string>
+    <string name="btn_register">Register</string>
+    <string name="tv_namePro">Name</string>
+    <string name="tv_emailPro">Email</string>
+    <string name="tv_uniPro">Institution</string>
+    <string name="btn_editPro">Edit Profile</string>
+    <string name="btn_deletePro">Delete Profile</string>
+    <string name="login_page_title3">My Profile</string>
+    <string name="image_des">description</string>
+
 </resources>
