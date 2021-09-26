@@ -13,14 +13,11 @@
         android:id="@+id/textView9"
         android:layout_width="128dp"
         android:layout_height="30dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="251dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
         android:elegantTextHeight="true"
         android:text="Time"
         app:autoSizeTextType="uniform"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDate2" />
 
@@ -28,34 +25,40 @@
         android:id="@+id/textView8"
         android:layout_width="161dp"
         android:layout_height="29dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="305dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
         android:elegantTextHeight="true"
         android:text="Date"
         app:autoSizeTextType="uniform"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="161dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="208dp"
+        android:elegantTextHeight="true"
+        android:text="Remind"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="138dp"
         android:layout_height="29dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="278dp"
         android:layout_marginBottom="476dp"
         android:elegantTextHeight="true"
         android:text="Your Event"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topAppBar"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.909" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topAppBar"
@@ -77,43 +80,37 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="556dp"
-        android:layout_marginEnd="259dp"
+        android:layout_width="96dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="252dp"
         android:onClick="open_event_page"
         android:text="SAVE"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topAppBar"
         tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="92dp"
+        android:layout_width="98dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="100dp"
         android:onClick="open_event_page"
         android:text="CANCEL"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/button"
         tools:ignore="OnClick" />
 
     <EditText
         android:id="@+id/editTextTime3"
-        android:layout_width="389dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="378dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="time"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.878"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -139,6 +136,83 @@
         android:inputType="textMultiLine"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="28dp"
+        android:background="#632FFA"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTime3"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="27dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="#632FFA"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2"
+        app:srcCompat="@drawable/ic_calender" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="62dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="632dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/business_schedule_concept_characters_managers_making_plans_event_organization_professional_management_strategy_business_170562460" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:background="#632FFA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/ic_notifications" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTime3" />
+
+    <!--Button
+        android:id="@+id/button2"
+        android:layout_width="135dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="showPopup"
+        android:text="show popup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTime3"
+        app:srcCompat="@drawable/imgbtn_add_items"
+        tools:ignore="OnClick" /-->
+
+
+
+
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

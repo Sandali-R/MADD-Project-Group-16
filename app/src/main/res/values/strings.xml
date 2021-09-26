@@ -1,4 +1,3 @@
-
 <resources>
     <string name="app_name">QuickZ</string>
     <string name="home_page_title">Home Page</string>
@@ -10,6 +9,7 @@
     <string name="action_calender">Calender</string>
     <string name="action_profile">Profile</string>
     <string name="action_settings">settings</string>
-
-
+    <string name="module_add">Addm</string>
+    <string name="entermodulename">EnterModuleName</string>
+    <string name="entermoduleID">EnterModuleID</string>
 </resources>

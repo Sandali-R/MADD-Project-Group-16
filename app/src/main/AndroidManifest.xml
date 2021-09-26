@@ -9,18 +9,50 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MADD_Project">
-        <activity android:name=".IT20226664_confirm_delete"></activity>
-        <activity android:name=".IT20226664_MyEvents" />
-        <activity android:name=".IT20226664_AddCategory" />
-        <activity android:name=".IT20226664_EditEvents" />
-        <activity android:name=".IT20226664_AddEvents" />
-        <activity android:name=".MainActivity">
+
+        <activity
+            android:name=".IT20225674_CalenderView"
+            android:exported="true" />
+        <activity
+            android:name=".IT20225674_Calendar"
+            android:exported="true" />
+        <activity
+            android:name=".IT20225674_DeleteTimeTable"
+            android:exported="true" />
+        <activity
+            android:name=".IT20225674_UpdateTimeTable"
+            android:exported="true" />
+        <activity
+            android:name=".IT20225674_AddTimeTable"
+            android:exported="true" />
+
+        <activity android:name=".IT20255756_GradingModule"></activity>
+        <activity android:name=".IT20255756_ModuleList" />
+        <activity android:name=".IT20255756_UpdateModule" />
+        <activity android:name=".IT20255756_AddModule" />
+
+
+        <activity android:name=".IT20218058_LogAndRegister">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".IT20218058_Profile" />
+        <activity android:name=".IT20218058_Register" />
+        <activity android:name=".IT20218058_MyHistory" />
+        <activity android:name=".IT20218058_GroupDetails" />
+        <activity android:name=".IT20218058_MyGroups" />
+        <activity
+            android:name=".IT20218058_CreateGroup"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".IT20226664_confirm_delete"></activity>
+        <activity android:name=".IT20226664_MyEvents" />
+        <activity android:name=".IT20226664_AddCategory" />
+        <activity android:name=".IT20226664_EditEvents" />
+        <activity android:name=".IT20226664_AddEvents" />
     </application>
 
 </manifest>
