@@ -6,21 +6,139 @@
     android:layout_height="match_parent"
     tools:context=".IT20226664_AddEvents">
 
+
     <!--top menu-->
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="128dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="251dp"
+        android:elegantTextHeight="true"
+        android:text="Time"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="161dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="305dp"
+        android:elegantTextHeight="true"
+        android:text="Date"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="138dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="476dp"
+        android:elegantTextHeight="true"
+        android:text="Your Event"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar"
+        app:layout_constraintVertical_bias="1.0" />
+
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topAppBar"
         style="@style/Widget.MaterialComponents.Toolbar.Primary"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:layout_marginBottom="34dp"
 
+        android:layout_marginBottom="573dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:menu="@menu/home_menu"
         app:navigationIcon="@drawable/ic_menu"
         app:title="@string/event_page_title1" />
+
+
+    <!--button-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="259dp"
+        android:onClick="open_event_page"
+        android:text="SAVE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topAppBar"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="92dp"
+        android:onClick="open_event_page"
+        android:text="CANCEL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        tools:ignore="OnClick" />
+
+    <EditText
+        android:id="@+id/editTextTime3"
+        android:layout_width="389dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="391dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="390dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
